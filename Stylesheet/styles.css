@@ -1,0 +1,191 @@
+body{
+    padding: 0%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../images/recurso\ 3.png );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+  background: url(../images/zyro-image.png) no-repeat center top;
+  height: 550pt;
+  padding: 1pt;
+  background-size: cover;
+}
+
+img{
+    display: block;
+    margin: auto ;
+    width: 23%;
+}
+
+h1{
+  text-align: center;
+  font-style: oblique;
+  flex-direction: column;
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+}
+
+.contenedor{
+    justify-content: center;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a:hover{
+    color: rgb(180, 249, 190);
+}
+
+a.nav_sec{
+    display:inline;
+    color: black;
+    padding: 1% 17%;
+    text-decoration: none;
+    font-weight: bold  ;
+    margin-top: 1px;
+}
+
+a.nav_sec2{
+    
+    display:inline;
+    color: rgb(0, 0, 0);
+    padding: 1% 17%;
+    text-decoration: none;
+    margin-left: 49%;
+    font-weight: bold  ;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    color: rgb(255, 253, 253);
+    border-radius: 50px;
+    margin-top: auto;
+    background: #0a0202;
+    box-shadow: inset 12px 12px 25px #5c5252, inset -12px -12px 25px #0e0303;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 2% 20px;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  img.nav_telegram{
+    justify-content: center;
+    align-items: center;
+    margin:auto 18% ;
+    margin-bottom: 0;
+    margin-top: -4%;
+    height: 190px;
+    width: 200px;
+  }
+
+  img.nav_contacto{
+    justify-content: center;
+    align-items: center;
+    margin: auto 16% ;
+    margin-left: 65%;
+    margin-top: -11%;
+    width: 10%;
+    
+  }
+
+.nav_fi{
+    background:url(../images/background.jpeg) no-repeat center top;
+    margin-top: 5.3%;
+    height: 250pt ;
+    background-size: cover;
+  }
+
+  table, td, th{
+
+    margin-left: auto ;
+    margin-right: auto;
+    border: 5px solid black;
+    font-weight: 700;
+    background-color: rgb(9, 9, 9);
+    color: white
+  }
+
+.subtitulo{
+  text-align: center;
+  color: #000000;
+}
+
+p{
+  color: #000000;
+  text-align:center;
+  flex-direction: column;
+  font-style:oblique;
+   margin: 0px;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+.form{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+  width: 9000px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 60px;
+  padding: 50px;
+  box-shadow: 0 0 20px 1px #000000;
+  position: relative;
+}
+
+.input_form, .label_form, .submit_form{
+  display: block;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+.input_form{
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.input_form:focus{
+  outline: 1px solid #000000;
+}
+
+.input_form:focus + .label_form{
+  margin-top: -135px;
+}
+
+.submit_form{
+  background: #220303;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+
